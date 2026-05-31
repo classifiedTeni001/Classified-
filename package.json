@@ -1,0 +1,40 @@
+{
+  "name": "tenis-tool",
+  "version": "1.0.0",
+  "description": "AI Anime & Video Generator - Generate stunning videos with Claude AI and Replicate",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "build": "eas build",
+    "build:android": "eas build --platform android",
+    "build:apk": "eas build --platform android --local",
+    "preview": "eas build --platform android --profile preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.73.0",
+    "react-native-web": "^0.19.0",
+    "expo": "^51.0.0",
+    "expo-constants": "^16.0.0",
+    "expo-file-system": "^17.0.0",
+    "expo-sharing": "^14.0.0",
+    "expo-video": "^1.0.0",
+    "expo-media-library": "^15.0.0",
+    "expo-camera": "^14.0.0",
+    "axios": "^1.6.0",
+    "zustand": "^4.4.0",
+    "dayjs": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.73.0",
+    "expo-build-properties": "^0.10.0",
+    "eas-cli": "^7.0.0"
+  },
+  "private": true,
+  "author": "classifiedTeni001",
+  "license": "MIT"
+}
